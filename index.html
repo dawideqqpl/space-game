@@ -6,8 +6,8 @@
     <title>Unity WebGL Player | C# TonConnect</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=720 height=1280 style="width: 720px; height: 1280px; background: #231F20"></canvas>
-    <script src="Build/test29.loader.js"></script>
+    <canvas id="unity-canvas" width=360 height=640 style="width: 360px; height: 640px; background: #231F20"></canvas>
+    <script src="Build/test30.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/test29.data",
-        frameworkUrl: "Build/test29.framework.js",
-        codeUrl: "Build/test29.wasm",
+        dataUrl: "Build/test30.data",
+        frameworkUrl: "Build/test30.framework.js",
+        codeUrl: "Build/test30.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "C# TonConnect",
